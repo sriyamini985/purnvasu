@@ -1,0 +1,131 @@
+/* General container for the whole page */
+.order-management-page {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* --- HEADER STYLES --- */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-area {
+  text-align: center;
+  flex-grow: 1; /* Allows the logo to center itself */
+}
+
+.placeholder-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-text {
+  font-size: 12px;
+  color: #555;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.placeholder-icon {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #000;
+}
+
+/* --- MAIN CONTENT LAYOUT --- */
+.main-content {
+  display: flex;
+  gap: 20px; /* Space between sidebar and main content */
+}
+
+/* --- SIDEBAR STYLES --- */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 150px; /* Sets an initial width for the sidebar */
+  flex-shrink: 0; /* Prevents the sidebar from shrinking */
+}
+
+.back-button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.summary-card {
+  border: 1px solid #000;
+  padding: 15px;
+  text-align: center;
+}
+
+.summary-card p {
+  margin: 0;
+}
+
+.summary-number {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* --- ORDER DETAILS (RIGHT SIDE) --- */
+.order-details-section {
+  flex-grow: 1; /* Allows this section to take up remaining space */
+}
+
+.order-details-section h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+}
+
+/* --- TABLE STYLES --- */
+.orders-table {
+  width: 100%;
+  border-collapse: collapse; /* Merges cell borders */
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.orders-table th {
+  background-color: #f2f2f2; /* Light grey header */
+}
+
+.orders-table td input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
