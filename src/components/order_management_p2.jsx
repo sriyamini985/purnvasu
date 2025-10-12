@@ -62,55 +62,7 @@ function Ordermanagep2(){
                       <td><input type="checkbox" defaultChecked /></td>
                       <td>3:00</td>
                     </tr>
-                    <tr>
-                      <td>ORD-001</td>
-                      <td>
-                        Sham <br /> table-3
-                      </td>
-                      <td>
-                        1X Pizza <br /> X Desert
-                      </td>
-                      <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
-                      <td>3:00</td>
-                    </tr>
-                    <tr>
-                      <td>ORD-001</td>
-                      <td>
-                        Sham <br /> table-3
-                      </td>
-                      <td>
-                        1X Pizza <br /> X Desert
-                      </td>
-                      <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
-                      <td>3:00</td>
-                    </tr>
-                    <tr>
-                      <td>ORD-001</td>
-                      <td>
-                        Sham <br /> table-3
-                      </td>
-                      <td>
-                        1X Pizza <br /> X Desert
-                      </td>
-                      <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
-                      <td>3:00</td>
-                    </tr>
-                    <tr>
-                      <td>ORD-001</td>
-                      <td>
-                        Sham <br /> table-3
-                      </td>
-                      <td>
-                        1X Pizza <br /> X Desert
-                      </td>
-                      <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
-                      <td>3:00</td>
-                    </tr>
-                    <tr>
+                      <tr>
                       <td>ORD-001</td>
                       <td>
                         Sham <br /> table-3
