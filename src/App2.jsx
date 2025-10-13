@@ -34,13 +34,14 @@ const App = () => {
       {/* Main Content */}
       <div className='main-content'>
         <h2>
-          <b>
-          WELCOME<br/>XYZ Restaurant</b>
+        
+         <b> XYZ Restaurant</b>
         </h2>
+        <p>Finance account</p>
         {/* Login Form */}
         <div className='login-form'>
           <h3><b>Login</b></h3>
-          <p>To your account to continue</p>
+          <p>To your Finance account to continue</p>
           <form>
             <input type="text" placeholder="User Id"  />
             <input  type="password" placeholder="Password" />
