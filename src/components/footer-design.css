@@ -1,0 +1,14 @@
+.footer-design {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+.footer-design svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+}

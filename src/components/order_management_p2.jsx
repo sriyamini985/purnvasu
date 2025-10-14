@@ -59,10 +59,10 @@ function Ordermanagep2(){
                         1X Pizza <br /> X Desert
                       </td>
                       <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
+                      <td><button class="delivered btn">Delivered</button></td>
                       <td>3:00</td>
                     </tr>
-                      <tr>
+                    <tr>
                       <td>ORD-001</td>
                       <td>
                         Sham <br /> table-3
@@ -71,15 +71,117 @@ function Ordermanagep2(){
                         1X Pizza <br /> X Desert
                       </td>
                       <td>Extra Straw</td>
-                      <td><input type="checkbox" defaultChecked /></td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr> 
+                     <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
                       <td>3:00</td>
                     </tr>
+                     <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr>  <tr>
+                      <td>ORD-001</td>
+                      <td>
+                        Sham <br /> table-3
+                      </td>
+                      <td>
+                        1X Pizza <br /> X Desert
+                      </td>
+                      <td>Extra Straw</td>
+                      <td><button class="delivered btn">Delivered</button></td>
+                      <td>3:00</td>
+                    </tr> 
                   </tbody>
                 </table>
               </div>
             </div>
           </div>
         </main>
+        <i></i>
       </div>
     )
 }
