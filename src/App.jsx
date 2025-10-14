@@ -33,6 +33,7 @@ const App = () => {
 
       {/* Main Content */}
       <div className='main-content'>
+         
         <h2>
           <b>
           WELCOME<br/>XYZ Restaurant</b>
@@ -44,18 +45,20 @@ const App = () => {
           <form>
             <input type="text" placeholder="User Id"  />
             <input  type="password" placeholder="Password" />
-            <button type="submit">Password</button>
+             <button className='button-container' type="submit">Password</button>
           </form>
         </div>
+            <div className="curve">
+
+</div>
         {/* Footer */}
         <div className='footer'>
           <div>Contact PurnVasu for queries:</div>
           <div>Email: OrderIn.vap@gmail.com</div>
         </div>
-        {/* Curved design */}
-        <div></div>
+       
+        </div>
       </div>
-    </div>
   );
 };
 
