@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman';
+}
+.buthead{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.backbutton{
+    padding: 8px 15px;
+    background-color: white;
+    color: #e53935;
+    border: 1px solid #e53935;
+    border-radius: 8px;
+}
+.menu{
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.leftbutton{
+    left: 30px;
+}
+.rightbutton{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.button-container button{
+    color: white;
+    background-color: #e53935;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td{
+    border: 1px solid #e0e0e0 ;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+th{
+    background-color: #f5f7fa;
+    color: #212121;
+    font-weight: bold;
+}

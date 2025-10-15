@@ -1,0 +1,158 @@
+body {
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.white-box {
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 12px;
+  width: 600px;
+  height: 300px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-heading {
+  margin: 0;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-half-box {
+  width: 40%;
+  height: 220px;
+  align-items: center;
+  background-color: #f5f7fa;
+  border: 1px solid green;
+  border-radius: 0;
+  padding: 15px;
+}
+
+.right-half-box {
+  width: 50%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  height: 200%;
+  padding: 25px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 0;
+  background-color: #d3d3d395;
+  font-size: 15px;
+  box-sizing: border-box;
+  resize: none;
+  color: #333;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  background-color: #d3d3d395;
+}
+
+.submit-btn {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e53935;
+  color: white;
+  float: right;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c62828;
+}
+
+.back-btn {
+  padding: 8px 15px;
+  background-color: white;
+  color: #e53935;
+  border: 1px solid #e53935;
+  border-radius: 8px;
+  position: absolute;
+  top: 70px;
+  left: 270px;
+}
+
+.back-btn:hover {
+  background-color: red;
+}
+
+.top-bar {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: green;
+}
+
+.top-center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d3d3d395;
+  border-radius: 50%;
+  background-color: #d3d3d395;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 200px;
+  left: 420px;
+}
+
+.text {
+  position: absolute;
+  top: 300px;
+  left: 420px;
+}
+
+.text1 {
+  position: absolute;
+  top: 330px;
+  left: 400px;
+}
+
+.text2 {
+  position: absolute;
+  top: 360px;
+  left: 420px;
+}

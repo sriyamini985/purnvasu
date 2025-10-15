@@ -1,0 +1,6 @@
+- [x] Fix pie chart display in financial1.jsx by setting fixed height for ResponsiveContainer
+- [x] Move buttons from top-bar to main-box in financial1.jsx
+- [x] Adjust CSS in financial1.css for button positioning in main-box
+- [x] Update PieChartComponent to use LabelList for aligned text labels
+- [x] Remove manual label divs and adjust CSS
+- [x] Test the changes by running the app
