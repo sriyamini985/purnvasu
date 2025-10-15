@@ -1,11 +1,14 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color:#f5f7fa;
+
  height: 100vh;
  width: 100vw;
   
@@ -74,10 +77,8 @@ p {
   flex-direction: column ;
     align-items: center;
     text-align: center;
-    height: 100vh;
     width: 100%;
     display: flex;
-
     justify-content: center;
     background-color: #ffffff;
 }
@@ -86,7 +87,7 @@ p {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 462px;
+  width: 392px;
   height: 402px;
   margin: auto;
   font-size: 15px;
