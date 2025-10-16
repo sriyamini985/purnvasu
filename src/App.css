@@ -1,13 +1,13 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jaro&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color:#f5f7fa;
+  background-color:#ecececb9;
 
  height: 100vh;
  width: 100vw;
@@ -31,6 +31,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   margin-left: 70px;
 }
 .logo{
@@ -40,7 +41,10 @@ html, body, #root {
   border-radius: 50%;
   background: radial-gradient(circle at center, #faefef, #ffffff);
   display: flex;
-  right: -100px;
+  right: -90px;
+ 
+  align-items: center;
+  justify-content: center;
 }
 .footer-text {
   position: absolute;
@@ -52,6 +56,19 @@ html, body, #root {
 h1 {
   font-size: 24px;
   margin: 30px;
+  font-family: cabin;
+}
+h3{
+
+flex-shrink: 0;
+ color: #212121;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 41.6px */
+
 }
 p {
   margin: 5px 0 20px 0;
@@ -73,6 +90,7 @@ p {
 
 .main-content {
   margin-left: 250px;
+  margin-bottom: 50px;
   padding: 100px;
   flex-direction: column ;
     align-items: center;
@@ -81,27 +99,39 @@ p {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
+   
 }
 .login-form {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 392px;
-  height: 402px;
-  margin: auto;
-  font-size: 15px;
+width: 300px;
+height: 330px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #ffffff;
+box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+margin-top: auto;
+
 }
 input{
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 16px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 .button-container {
-    width: 100%;
-    padding: 10px;
+   width: 90%;
+   padding: 10px;
+    margin-top: 20px;
     background-color: #E53935;
     color: white;
     border: none;
@@ -110,16 +140,19 @@ input{
     font-size: 16px;
 }
 .footer{
-    margin-top: 20px;
-    font-size: 14px;
-    color: #555;
-    text-align: center;
-    bottom: 70px;
+   color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 20.8px */
+
+    
 }
 .icon-circle {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: radial-gradient(circle at center, #ffffff, #ffffff);
   display: flex;
@@ -130,11 +163,29 @@ input{
 .by{
   text-align: center;
 }
-h2{
-  
-  font-size: 25px;
-  font-family: 'Jaro', sans-serif;
-  width: 462px;
-  height: 142px;
-  
+.text {
+color: #212121;
+text-align: center;
+font-family: Jaro;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 65px */
+padding: 0px 0px 20px 0px;
+width: 462px;
+height: 142px;
+}
+.logoname{
+  color: #FFF;
+text-align: center;
+font-family: JejuGothic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 31.2px */
+}
+.image{
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
 }
