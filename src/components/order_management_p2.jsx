@@ -23,7 +23,7 @@ function Ordermanagep2(){
             <div className="right-section">
               <div className="right-section1">
                 <span><h1>Completed</h1></span>
-                <span><input type="text" id="search" name="search" placeholder="Search"/></span>
+                <span><input type="text" id="search" name="search"className="searchbar" placeholder="Search"/></span>
               </div>
               <div className="right-section-table">
                 <table className="orders-table">

@@ -6,7 +6,7 @@ function Header()
         <div className="header-container">
             <div className="header-sub1">
                 <div className="header-sub1-logo"></div>
-                <div>
+                <div  logo-text>
                     <h4>OrderIn</h4>
                     <h4>By PurnVasu Tech Solutions</h4>
                 </div>
