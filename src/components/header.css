@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-text{
+    color: #43A047;
+    margin-top: 3px;
+}
+.header-container{
+    display: flex;
+    max-height: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    padding: 20px;
+    height: 100px;
+
+}
+.header-sub1{
+    display: flex;
+}
+
+.header-sub1-logo{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.header-sub3{
+    display: flex;
+    gap: 20px;
+    
+}
+.header-icon{
+    height: 25px;
+    width: 18px;
+}
+.divs{
+    border: 1px solid black;
+}
+
