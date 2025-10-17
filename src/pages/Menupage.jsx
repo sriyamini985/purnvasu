@@ -1,19 +1,19 @@
 
-import './App.css';
-import './index.css';
-import CurveImg from './assets/Vector.png';
+import '../App.css';
+import '../index.css';
+import CurveImg from '../assets/Vector.png';
 
-const App = () => {
+const Menu = () => {
   return (
     <div className="app-container flex  w-screen">
       
       {/* Left Sidebar */}
-      <div className="sidebar">
+      <div className="sidebar1">
         <div>
           <h1>OrderIn</h1>
-          <p className='by'>by</p>
+          <p className='by1'>by</p>
           <div/>
-           <div className='logo  '>
+           <div className='logo1  '>
             
 
           </div>
@@ -23,7 +23,7 @@ const App = () => {
        
         <div>
           {/* You can replace these with actual PNGs/icons or leave as placeholders */}
-          <div className='icon-circle'>
+          <div className='icon-circle1'>
             <img src="c:\Users\Syam\Downloads\food.png" alt="Food" />
           </div>
          
@@ -35,11 +35,11 @@ const App = () => {
       </div>
 
       {/* Main Content */}
-      <div className='main-content h-screen  '>
+      <div className='main-content1 '>
 
-        <h2 className='text'>
+        <h2 className='text1'>
           XYZ Restaurant
-        </h2><br></br>
+        </h2>
         <h3>Menu account</h3>
 
         {/* Login Form */}
@@ -49,7 +49,7 @@ const App = () => {
           <form>
             <input type="text" placeholder="User Id"  />
             <input  type="password" placeholder="Password" />
-             <button className='button-container' type="submit">Submit</button>
+             <button className='button-container1' type="submit">Submit</button>
           </form>
         </div> 
         <div className="curve fixed bottom-0 right-0">
@@ -65,4 +65,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Menu;

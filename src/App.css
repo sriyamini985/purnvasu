@@ -2,26 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro&display=swap');
 
-body {
-  font-family: 'Poppins', sans-serif;
+html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color:#ecececb9;
-
- height: 100vh;
- width: 100vw;
-  
-}
-/* Ensure html, body, and #root take full viewport */
-html, body, #root {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  overflow: hidden; /* Disable scroll */
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
 }
-.sidebar {
-  width: 356px;
+
+/* ==============================
+   APP CONTAINER
+   ============================== */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ==============================
+   LEFT SIDEBAR
+   ============================== */
+.sidebar1 {
+   width: 356px;
   height: 872px;
   background-color: #E53935;
   color: white;
@@ -34,17 +39,209 @@ html, body, #root {
   
   margin-left: 70px;
 }
-.logo{
-  position: relative;
-  width: 50px;
-  height: 50px;
+.by1{
+  text-align: center;
+}
+
+.sidebar1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.by1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.logoname1 p {
+  text-align: center;
+}
+
+.logo1 {
+  width: 70px;
+  height: 70px;
+  background-color: white;
   border-radius: 50%;
-  background: radial-gradient(circle at center, #faefef, #ffffff);
+  margin: 10px auto;
+}
+
+/* ==============================
+   FOOD IMAGE
+   ============================== */
+.icon-circle1 {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
   display: flex;
-  right: -90px;
- 
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.icon-circle1 .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==============================
+   SIDEBAR FOOTER
+   ============================== */
+.footer1 {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ==============================
+   MAIN CONTENT SECTION
+   ============================== */
+.main-content1 {
+  margin-left: 420px;
+  height: 100vh;
+  width: calc(100vw - 420px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ==============================
+   WELCOME TEXT
+   ============================== */
+.text1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top: -60px;
+  z-index: 2;
+}
+
+/* ==============================
+   LOGIN FORM
+   ============================== */
+.login-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  z-index: 3;
+}
+
+.login-form h3 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.login-form p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #e63946;
+  box-shadow: 0 0 5px rgba(230, 57, 70, 0.4);
+}
+
+.button-container1 {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.button-container1:hover {
+  background-color: #d62839;
+}
+
+/* ==============================
+   CURVE IMAGE AND CONTACT TEXT
+   ============================== */
+.curve {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 800px;
+  height: auto;
+  z-index: 1;
+}
+
+.curve img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.curve div {
+ 
+  bottom: 15px;
+  right: 15x;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+/* ==============================
+   RESPONSIVE FIXES
+   ============================== */
+@media (max-width: 1024px) {
+  .sidebar1 {
+    width: 320px;
+  }
+  .main-content1 {
+    margin-left: 320px;
+  }
+  .curve {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .sidebar1 {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    flex-direction: row;
+  }
+  .main-content1 {
+    margin-left: 0;
+    width: 100%;
+    height: calc(100vh - 220px);
+  }
+  .curve {
+    width: 400px;
+  }
 }
 .footer-text {
   position: absolute;
@@ -52,140 +249,4 @@ html, body, #root {
   width: 210px;
   font-size: 12px;
   text-align: center;
-}
-h1 {
-  font-size: 24px;
-  margin: 30px;
-  font-family: cabin;
-}
-h3{
-
-flex-shrink: 0;
- color: #212121;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 41.6px */
-
-}
-p {
-  margin: 5px 0 20px 0;
-  text-align: center;
-}
-.menu-item {
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  cursor: pointer;
-}
-.menu-item img {
-  margin-right: 10px;
-}
-.menu-item:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-/* Additional styles can be added as needed */
-
-.main-content {
-  margin-left: 250px;
-  margin-bottom: 50px;
-  padding: 100px;
-  flex-direction: column ;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-   
-}
-.login-form {
-width: 300px;
-height: 330px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #ffffff;
-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-margin-top: auto;
-
-}
-input{
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 16px;
-
-}
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-.button-container {
-   width: 90%;
-   padding: 10px;
-    margin-top: 20px;
-    background-color: #E53935;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
-}
-.footer{
-   color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%; /* 20.8px */
-
-    
-}
-.icon-circle {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: radial-gradient(circle at center, #ffffff, #ffffff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.by{
-  text-align: center;
-}
-.text {
-color: #212121;
-text-align: center;
-font-family: Jaro;
-font-size: 50px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 65px */
-padding: 0px 0px 20px 0px;
-width: 462px;
-height: 142px;
-}
-.logoname{
-  color: #FFF;
-text-align: center;
-font-family: JejuGothic;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 31.2px */
-}
-.image{
-  width: 270px;
-  height: 270px;
-  border-radius: 50%;
 }
