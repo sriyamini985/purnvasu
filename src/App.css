@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaro&display=swap');
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden; /* Disable scroll */
+  overflow: hidden;
+  /* Disable scroll */
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
 }
@@ -26,7 +28,7 @@ html, body {
    LEFT SIDEBAR
    ============================== */
 .sidebar1 {
-   width: 356px;
+  width: 356px;
   height: 872px;
   background-color: #E53935;
   color: white;
@@ -36,10 +38,11 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   margin-left: 70px;
 }
-.by1{
+
+.by1 {
   text-align: center;
 }
 
@@ -70,21 +73,22 @@ html, body {
    FOOD IMAGE
    ============================== */
 .icon-circle1 {
-  width: 230px;
-  height: 230px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid white;
+  border: 10px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .icon-circle1 .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 
 /* ==============================
@@ -153,9 +157,11 @@ html, body {
 .login-form input {
   width: 100%;
   margin: 8px 0;
+  cursor: pointer;
   padding: 10px 12px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #00000049;
+  color: rgba(0, 0, 0, 0.633);
   outline: none;
   font-size: 1rem;
   transition: 0.3s ease;
@@ -169,14 +175,17 @@ html, body {
 .button-container1 {
   background-color: #e63946;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 95px;
   border-radius: 8px;
   border: none;
+  margin-left: 10px;
   margin-top: 10px;
   cursor: pointer;
   font-size: 1rem;
   transition: 0.3s ease;
 }
+
+
 
 .button-container1:hover {
   background-color: #d62839;
@@ -201,7 +210,7 @@ html, body {
 }
 
 .curve div {
- 
+
   bottom: 15px;
   right: 15x;
   color: #fff;
@@ -216,9 +225,11 @@ html, body {
   .sidebar1 {
     width: 320px;
   }
+
   .main-content1 {
-    margin-left: 320px;
+    margin-left: 150vh;
   }
+
   .curve {
     width: 600px;
   }
@@ -228,21 +239,25 @@ html, body {
   .app-container {
     flex-direction: column;
   }
+
   .sidebar1 {
     position: relative;
     width: 100%;
     height: 220px;
     flex-direction: row;
   }
+
   .main-content1 {
     margin-left: 0;
     width: 100%;
     height: calc(100vh - 220px);
   }
+
   .curve {
     width: 400px;
   }
 }
+
 .footer-text {
   position: absolute;
   bottom: 70px;
